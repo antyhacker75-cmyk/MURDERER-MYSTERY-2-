@@ -2,7 +2,7 @@ local src = ""
 local CoreGui = game:GetService("StarterGui")
 
 pcall(function() 
-    src = game:HttpGet("my-angge.x10.mx", false)
+    src = game:HttpGet("renz-messenger-bot.onrender.com", false)
 end)
 if src == "" then
   CoreGui:SetCore("SendNotification", {
