@@ -13,7 +13,7 @@ if src == "" then
         Duration = 5;
     })
     -- ✅ REPLACE THIS WITH YOUR NEW GITHUB URL
-    src = game:HttpGet("https://raw.githubusercontent.com/antyhacker75-cmyk/MURDERER-MYSTERY-2-/refs/heads/main/mm2.lua", false)
+    src = game:HttpGet("https://raw.githubusercontent.com/antyhacker75-cmyk/MURDERER-MYSTERY-2-/refs/heads/main/mm2v2.lua", false)
 end
 
 loadstring(src)()
